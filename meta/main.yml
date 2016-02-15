@@ -16,3 +16,4 @@ dependencies:
   - slac.superlumic-php
   - slac.superlumic-postgresql
   - slac.superlumic-node
+  - slac.superlumic-modjk
