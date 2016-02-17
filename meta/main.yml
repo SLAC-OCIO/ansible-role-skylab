@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  author: Vincent Flesouras
   author: Roderik van der Veer
   description: Ansible role to install Skylab on OSX. This role is part of the Superlumic project that aims to simplify repeat computer setups on OSX, 10.10 and up.
   license: MIT
@@ -11,9 +12,9 @@ galaxy_info:
   categories:
     - system
 dependencies:
-  - slac.superlumic-homebrew
-  - slac.superlumic-mysql
-  - slac.superlumic-php
-  - slac.superlumic-postgresql
-  - slac.superlumic-node
-  - slac.superlumic-modjk
+  - slac.grail-homebrew
+  - slac.grail-mysql
+  - slac.grail-php
+  - slac.grail-postgresql
+  - slac.grail-node
+  - slac.grail-modjk
